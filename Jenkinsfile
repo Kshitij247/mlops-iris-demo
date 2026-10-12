@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage('Deploy Model') {
+       stage('Deploy Model') {
             steps {
                 sh 'cp iris_model.pkl /opt/mlops/iris_model.pkl'
             }
