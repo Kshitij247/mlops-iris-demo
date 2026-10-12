@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/mlops-iris-demo.git'
+                    url: 'https://github.com/Kshitij247/mlops-iris-demo.git'
             }
         }
 
