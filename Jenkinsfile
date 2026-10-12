@@ -25,8 +25,7 @@ pipeline {
 
         stage('Deploy Model') {
             steps {
-                sh 'mkdir -p /home/kshitijs247/app'
-                sh 'cp iris_model.pkl /home/kshitijs247/app/iris_model.pkl'
+                sh 'cp iris_model.pkl /opt/mlops/iris_model.pkl'
             }
         }
     }
